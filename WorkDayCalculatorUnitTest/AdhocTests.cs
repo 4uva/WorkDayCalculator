@@ -5,7 +5,7 @@ using WorkDayCalculatorLib;
 namespace WorkDayCalculatorUnitTest
 {
     [TestClass]
-    public class DateDistanceTest
+    public class AdhocTests
     {
         [TestMethod]
         public void SingleDayWeekend()
