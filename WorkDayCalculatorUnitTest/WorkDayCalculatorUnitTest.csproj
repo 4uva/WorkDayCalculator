@@ -50,6 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DateDistanceTest.cs" />
+    <Compile Include="FirstDayPositions.cs" />
+    <Compile Include="LastDayPositions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
