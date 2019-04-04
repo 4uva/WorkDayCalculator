@@ -20,6 +20,7 @@ namespace WorkDayCalculatorLib
             EndDate = endDate;
         }
 
-        public readonly DateTime StartDate, EndDate;
+        public DateTime StartDate { get; }
+        public DateTime EndDate { get; }
     }
 }
