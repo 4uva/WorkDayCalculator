@@ -52,7 +52,7 @@ namespace WorkDayCalculatorLib
                 // compute working days on the preceding week
                 DateRange currentWeekend = weekends[indexOfCurrentWeekend];
                 int daysToCurrentWeekend = (currentWeekend.StartDate - currentDate).Days;
-                if (daysToCurrentWeekend >= remainingDays)
+                if (daysToCurrentWeekend > remainingDays)
                 {
                     // we can finish before weekend
                     return currentDate.AddDays(remainingDays);
